@@ -2,11 +2,11 @@
 
 pragma solidity ^0.8.0;
 
-import {Test} from "forge-std/Test.sol";
+import {Test} from "lib/foundry-devops/lib/forge-std/src/Test.sol";
 import {DeployRaffle} from "script/DeployRaffle.s.sol";
 import {Raffle} from "src/Raffle.sol";
 import {HelperConfig, CodeConstants} from "script/HelperConfig.s.sol";
-import {Vm} from "forge-std/Vm.sol";
+import {Vm} from "lib/foundry-devops/lib/forge-std/src/Vm.sol";
 import {VRFCoordinatorV2_5Mock} from
     "lib/chainlink-brownie-contracts/contracts/src/v0.8/vrf/mocks/VRFCoordinatorV2_5Mock.sol";
 
